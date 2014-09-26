@@ -1,5 +1,5 @@
 function poke_you() {
-  var POKE_BACK = 'Poke Back';
+  var POKE_BACK = 'Poke back';
   var poke_el = document.evaluate('//*[text()="' + POKE_BACK + '"]', document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE).snapshotItem(0);
   if(poke_el) {
     poke_el.click();
